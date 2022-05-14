@@ -21,10 +21,6 @@
         width: 100px;
     }
     
-    .signup:hover {
-        background-color: #5f0d0f;
-    }
-    
     .login {
         position: absolute;
         top: 10px;
@@ -37,10 +33,6 @@
         border-radius: 15px;
         height: 50px;
         width: 100px;
-    }
-    
-    .login:hover {
-        background-color: #5f0d0f;
     }
     
     .search {
@@ -98,6 +90,10 @@
         padding: 10px;
         border-radius: 5px;
         border-color: #245a8d;
+    }
+    
+    .btn:hover {
+        background-color: #E15FED;
     }
     
     #codefactoryh2 {
