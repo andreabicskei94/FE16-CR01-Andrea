@@ -1,0 +1,21 @@
+    body {
+        background-color: #245a8d;
+        color: white;
+    }
+    
+    h1 {
+        font-family: Arial, Helvetica, sans-serif;
+        ;
+    }
+    
+    label {
+        color: white;
+        padding: 2%;
+    }
+    
+    p {
+        color: #245a8d;
+        background-color: white;
+        padding: 2%;
+        font-family: Arial, Helvetica, sans-serif;
+    }
