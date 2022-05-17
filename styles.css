@@ -43,7 +43,7 @@
         height: 30px;
     }
     
-    #codefactoryh1 {
+    #codefactory_h1 {
         position: absolute;
         top: 28%;
         left: 20%;
@@ -52,7 +52,7 @@
         font-family: Arial, Helvetica, sans-serif;
     }
     
-    #codefactoryp1 {
+    #codefactory_p1 {
         position: absolute;
         top: 36%;
         left: 20%;
@@ -88,7 +88,6 @@
     
     .btn {
         padding: 10px;
-        border-radius: 5px;
         border-color: #245a8d;
     }
     
@@ -96,7 +95,7 @@
         background-color: #E15FED;
     }
     
-    #codefactoryh2 {
+    #codefactory_h2 {
         text-align: center;
         text-shadow: 2px 3px 2px;
         font-family: Arial, Helvetica, sans-serif;
@@ -117,19 +116,19 @@
         margin-left: 13%;
     }
     
-    li {
+    .contact_list {
         float: center;
         list-style-type: none;
         color: white;
     }
     
-    li a {
+    .contact_design {
         text-decoration: none;
         font-weight: bold;
         color: white;
     }
     
-    li:hover {
+    .contact_list:hover {
         background-color: #245a8d;
     }
     
