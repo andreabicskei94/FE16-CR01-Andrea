@@ -1,143 +1,144 @@
-    body {
-        margin: 0;
-        padding: 0;
-        background-image: url(pics/keyboard.jpg);
-        background-position-y: 60%;
-        background-repeat: no-repeat;
-        background-size: cover;
-    }
-    
-    .signup {
-        position: absolute;
-        top: 10px;
-        right: 20px;
-        font-weight: bold;
-        color: white;
-        border: none;
-        background-color: #8C181B;
-        text-align: center;
-        border-radius: 15px;
-        height: 50px;
-        width: 100px;
-    }
-    
-    .login {
-        position: absolute;
-        top: 10px;
-        right: 160px;
-        font-weight: bold;
-        color: white;
-        border: none;
-        background-color: #8C181B;
-        text-align: center;
-        border-radius: 15px;
-        height: 50px;
-        width: 100px;
-    }
-    
-    .search {
-        position: absolute;
-        top: 20px;
-        left: 16%;
-        right: 16%;
-        height: 30px;
-    }
-    
-    #codefactory_h1 {
-        position: absolute;
-        top: 28%;
-        left: 20%;
-        font-size: 46px;
-        color: white;
-        font-family: Arial, Helvetica, sans-serif;
-    }
-    
-    #codefactory_p1 {
-        position: absolute;
-        top: 36%;
-        left: 20%;
-        font-size: 24px;
-        color: white;
-        font-family: Arial, Helvetica, sans-serif;
-        font-weight: bold;
-    }
-    
-    #devices {
-        position: absolute;
-        top: 41%;
-        left: 20%;
-    }
-    
-    .cards {
-        margin: 20px;
-        float: left;
-        display: inline-block;
-        text-align: center;
-        background-color: #245a8d;
-        width: 24%;
-        height: 300px;
-        padding: 16px;
-        border-radius: 10px;
-        font-family: Arial, Helvetica, sans-serif;
-        color: white;
-    }
-    
-    .content {
-        min-height: 230px;
-    }
-    
-    .btn {
-        padding: 10px;
-        border-color: #245a8d;
-    }
-    
-    .btn:hover {
-        background-color: #E15FED;
-    }
-    
-    #codefactory_h2 {
-        text-align: center;
-        text-shadow: 2px 3px 2px;
-        font-family: Arial, Helvetica, sans-serif;
-        font-size: 55px;
-        color: white;
-    }
-    
-    .choices {
-        background-color: #1A1818;
-        position: absolute;
-        top: 49%;
-        bottom: 80%;
-        width: 100%;
-        height: 80%;
-    }
-    
-    .position {
-        margin-left: 13%;
-    }
-    
-    .contact_list {
-        float: center;
-        list-style-type: none;
-        color: white;
-    }
-    
-    .contact_design {
-        text-decoration: none;
-        font-weight: bold;
-        color: white;
-    }
-    
-    .contact_list:hover {
-        background-color: #245a8d;
-    }
-    
-    footer {
-        background-color: black;
-        position: absolute;
-        bottom: -20%;
-        width: 100%;
-        text-align: center;
-        font-family: Arial, Helvetica, sans-serif;
-        color: white;
-    }
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url(pics/keyboard.jpg);
+    background-position-y: 60%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.signup {
+    position: absolute;
+    top: 10px;
+    right: 20px;
+    font-weight: bold;
+    color: white;
+    border: none;
+    background-color: #8C181B;
+    text-align: center;
+    border-radius: 15px;
+    height: 50px;
+    width: 100px;
+}
+
+.login {
+    position: absolute;
+    top: 10px;
+    right: 160px;
+    font-weight: bold;
+    color: white;
+    border: none;
+    background-color: #8C181B;
+    text-align: center;
+    border-radius: 15px;
+    height: 50px;
+    width: 100px;
+}
+
+.search {
+    position: absolute;
+    top: 20px;
+    left: 16%;
+    right: 16%;
+    height: 30px;
+}
+
+#codefactory_h1 {
+    position: absolute;
+    top: 28%;
+    left: 20%;
+    font-size: 46px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#codefactory_p1 {
+    position: absolute;
+    top: 36%;
+    left: 20%;
+    font-size: 24px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+#devices {
+    position: absolute;
+    top: 41%;
+    left: 20%;
+}
+
+.cards {
+    margin: 20px;
+    float: left;
+    display: inline-block;
+    text-align: center;
+    background-color: #245a8d;
+    width: 24%;
+    height: 300px;
+    padding: 16px;
+    border-radius: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+.content {
+    min-height: 230px;
+}
+
+.btn {
+    position: relative;
+    padding: 10px;
+    border-color: #245a8d;
+}
+
+.btn:hover {
+    background-color: #E15FED;
+}
+
+#codefactory_h2 {
+    text-align: center;
+    text-shadow: 2px 3px 2px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 55px;
+    color: white;
+}
+
+.choices {
+    background-color: #1A1818;
+    position: absolute;
+    top: 49%;
+    bottom: 80%;
+    width: 100%;
+    height: 80%;
+}
+
+.position {
+    margin-left: 13%;
+}
+
+.contact_list {
+    float: center;
+    list-style-type: none;
+    color: white;
+}
+
+.contact_design {
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+}
+
+.contact_list:hover {
+    background-color: #245a8d;
+}
+
+footer {
+    background-color: black;
+    position: absolute;
+    bottom: -20%;
+    width: 100%;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
